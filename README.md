@@ -28,6 +28,8 @@
 
 **Cara** is a modern, responsive e-commerce fashion website built with HTML and CSS. This project demonstrates a complete online shopping experience with multiple pages and interactive features.
 
+---
+
 ## ✨ Features
 
 ### 🏠 **Home Page**
