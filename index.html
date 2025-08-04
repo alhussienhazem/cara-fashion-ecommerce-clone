@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header>
+        <nav>
+            <img src="images/logo.png" alt="logo">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping" id = "cart-icon"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="home">
+        <div class="home-text">
+            <h4>Trade-in-offer</h4>
+            <h2>Super Value Deals </h2>
+            <h1>On All Products</h1>
+            <p>Save more with coupons & up to 70% off!</p>
+            <button class= "btn-hero" onclick="window.location.href='shop.html'">
+                <div class="btn-img">
+                    <img src="images/hero-button.png" alt="button-bg">
+                </div>
+                <span class="btn-text">Shop Now</span>
+            </button>
+        </div>
+        <div class="home-img">
+            <img src="images/hero.png" alt="hero">
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section class="features">
+        <div class="features-box">
+            <img src="images/features-01.png" alt="f1">
+            <h6>Free Shipping</h6>
+            <p>Worldwide</p>
+        </div>
+        <div class="features-box">
+            <img src="images/features-02.png" alt="f2">
+            <h6>Online Order</h6>
+            <p>Order from any country</p>
+        </div>
+        <div class="features-box">
+            <img src="images/features-03.png" alt="f3">
+            <h6>Save Money</h6>
+            <p>Best prices</p>
+        </div>
+        <div class="features-box">
+            <img src="images/features-04.png" alt="f4">
+            <h6>Promotions</h6>
+            <p>New Promotions</p>
+        </div>
+        <div class="features-box">
+            <img src="images/features-05.png" alt="f5">
+            <h6>Happy Sell</h6>
+            <p>100% Secure Payment</p>
+        </div>
+        <div class="features-box">
+            <img src="images/features-06.png" alt="f6">
+            <h6>24/7 Support</h6>
+            <p>Dedicated Support</p>
+        </div>
+    </section>
+    
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Featured Products</h2>
+        <p>Summary Collection New Moder Design</p>
+        <div class="products-container">
+            <div class="product-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="product-img">
+                <img src="images/featured-products-01.jpg" alt="p1">
+            </div>
+            <div class="product-description">
+                <h5>Cara</h5>
+                <h4>Colorful Abstract Print Shirt</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$52</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="product-img">
+                <img src="images/featured-products-02.jpg" alt="p2">
+            </div>
+            <div class="product-description">
+                <h5>Tropical</h5>
+                <h4>Hawaiian Leaf Print Shirt</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$68</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="product-img">
+                <img src="images/featured-products-03.jpg" alt="p3">
+            </div>
+            <div class="product-description">
+                <h5>Vintage</h5>
+                <h4>Floral Garden Print Shirt</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$74</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="product-img">
+                <img src="images/featured-products-04.jpg" alt="p4">
+            </div>
+            <div class="product-description">
+                <h5>Blossom</h5>
+                <h4>Cherry Blossom Print Shirt</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$58</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="product-img">
+                <img src="images/featured-products-05.jpg" alt="p5">
+            </div>
+            <div class="product-description">
+                <h5>Navy</h5>
+                <h4>Dark Floral Print Shirt</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$46</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="product-img">
+                <img src="images/featured-products-06.jpg" alt="p6">
+            </div>
+            <div class="product-description">
+                <h5>Retro</h5>
+                <h4>Color Block Corduroy Shirt</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$82</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="product-img">
+                <img src="images/featured-products-07.jpg" alt="p7">
+            </div>
+            <div class="product-description">
+                <h5>Casual</h5>
+                <h4>Relaxed Fit Linen Pants</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$65</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="product-img">
+                <img src="images/featured-products-08.jpg" alt="p8">
+            </div>
+            <div class="product-description">
+                <h5>Gothic</h5>
+                <h4>Skull Print Gothic Blouse</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$89</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="banner-img">
+            <img src="images/banner-background.jpg" alt="banner">
+        </div>
+        <div class="banner-description">
+            <h4>Repair Services</h4>
+            <h2>Up to <span>70% Off</span> - All t-Shirts & Accessories</h2>
+            <button class="btn-banner" onclick="window.location.href='shop.html'">Explore More</button>
+        </div>
+    </section>
+    
+    <!-- New Arrivals Section -->
+    <section class="new-arrivals">
+        <h2>New Arrival</h2>
+        <p>Summer Collection New Moder Design</p>
+        <div class="new-arrivals-container">
+            <div class="new-arrivals-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="new-arrivals-img">
+                <img src="images/new-arrivals-01.jpg" alt="n1">
+            </div>
+            <div class="new-arrivals-description">
+                <h5>Classic</h5>
+                <h4>Light Blue Dress Shirt</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$78</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="new-arrivals-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="new-arrivals-img">
+                <img src="images/new-arrivals-02.jpg" alt="n2">
+            </div>
+            <div class="new-arrivals-description">
+                <h5>Business</h5>
+                <h4>Navy Checkered Dress Shirt</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$92</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="new-arrivals-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="new-arrivals-img">
+                <img src="images/new-arrivals-03.jpg" alt="n3">
+            </div>
+            <div class="new-arrivals-description">
+                <h5>Formal</h5>
+                <h4>Crisp White Dress Shirt</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$85</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="new-arrivals-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="new-arrivals-img">
+                <img src="images/new-arrivals-04.jpg" alt="n4">
+            </div>
+            <div class="new-arrivals-description">
+                <h5>Military</h5>
+                <h4>Olive Green Utility Shirt</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$115</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="new-arrivals-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="new-arrivals-img">
+                <img src="images/new-arrivals-05.jpg" alt="n5">
+            </div>
+            <div class="new-arrivals-description">
+                <h5>Denim</h5>
+                <h4>Light Blue Denim Shirt</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$68</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="new-arrivals-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="new-arrivals-img">
+                <img src="images/new-arrivals-06.jpg" alt="n6">
+            </div>
+            <div class="new-arrivals-description">
+                <h5>Tailored</h5>
+                <h4>Gray Pinstripe Trousers</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$125</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="new-arrivals-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="new-arrivals-img">
+                <img src="images/new-arrivals-07.jpg" alt="n7">
+            </div>
+            <div class="new-arrivals-description">
+                <h5>Safari</h5>
+                <h4>Tan Safari Work Shirt</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$95</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="new-arrivals-box">
+            <div class="favorite-icon">
+                <i class="ri-heart-line"></i>
+            </div>
+            <div class="new-arrivals-img">
+                <img src="images/new-arrivals-08.jpg" alt="n8">
+            </div>
+            <div class="new-arrivals-description">
+                <h5>Urban</h5>
+                <h4>Dark Navy Polo Shirt</h4>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <div class="price">
+                    <h6>$58</h6>
+                </div>
+                <div class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Deals Section -->
+    <section class="deals">
+        <div class="deals-wrapper">
+            <div class="deals-container">
+                <div class="deals-img">
+                    <img src="images/crazy-deals.jpg" alt="deal1">
+                </div>
+                <div class="deals-description">
+                    <h4>Crazy Deals</h4>
+                    <h3>buy 1 get 1 free</h3>
+                    <h4>The best classic dress is on sale at cara</h4>
+                    <button class="btn-deals" onclick="window.location.href='shop.html'">Learn More</button>
+                </div>
+            </div>
+            <div class="deals-container">
+                <div class="deals-img">
+                    <img src="images/upcoming-season.jpg" alt="deal2">
+                </div>
+                <div class="deals-description">
+                    <h4>Spring/Summer</h4>
+                    <h3>Upcoming season</h3>
+                    <h4>The best classic dress is on sale at cara</h4>
+                    <button class="btn-deals" onclick="window.location.href='shop.html'">Collection</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Deals Banner Section -->
+    <section class="deals-banner">
+        <div class="deals-banner-container">
+            <div class="deals-banner-img">
+                <img src="images/deal-01.jpg" alt="deal-banner1">
+            </div>
+            <div class="deals-banner-description">
+                <h3>SEASONAL SALE</h3>
+                <h4>Winter Collection -50% OFF</h4>
+            </div>
+        </div>
+        <div class="deals-banner-container">
+            <div class="deals-banner-img">
+                <img src="images/deal-02.jpg" alt="deal-banner2">
+            </div>
+            <div class="deals-banner-description">
+                <h3>NEW FOOTWEAR COLLECTION</h3>
+                <h4>Spring / Summer 2024</h4>
+            </div>
+        </div>
+        <div class="deals-banner-container">
+            <div class="deals-banner-img">
+                <img src="images/deal-03.jpg" alt="deal-banner3">
+            </div>
+            <div class="deals-banner-description">
+                <h3>T-SHIRTS</h3>
+                <h4>New Trendy Prints</h4>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-text">
+            <h3>Sign Up For Newsletters</h3>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="newsletter-input">
+            <input type="text" placeholder="Your email address">
+            <button>Sign Up</button>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <h3>Contact</h3>
+            <p><strong>Address: </strong> Cairo Festival City Mall, Cairo, Egypt</p>
+            <p><strong>Phone: </strong> +20 1234567890</p>
+            <p><strong>Hours: </strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="footer-social">
+                <h3>Follow us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-container">
+            <h3>About</h3>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="footer-container">
+            <h3>My Account</h3>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="footer-container">
+            <h3>Install App</h3>
+            <p>From App Store or Google Play</p>
+            <div class="footer-app">
+                <img src="images/app-store.jpg" alt="app-store">
+                <img src="images/google-play.jpg" alt="google-play">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/payments.png" alt="payments">
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025, Cara - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
