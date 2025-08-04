@@ -2,7 +2,7 @@
 
 ## 📸 Website Preview
 
-![Cara Fashion E-Commerce Website](website-showcase.jpg)
+![Cara Fashion E-Commerce Website](images/website-showcase.jpg)
 
 *Modern responsive fashion e-commerce website with hero section featuring promotional offers and product showcase*
 
