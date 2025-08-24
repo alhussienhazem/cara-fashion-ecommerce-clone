@@ -2,7 +2,7 @@
 
 ## 📸 Website Preview
 
-![Cara Fashion E-Commerce Website](website-showcase.jpg)
+![Cara Fashion E-Commerce Website](images/website-showcase.jpg)
 
 *Modern responsive fashion e-commerce website with hero section featuring promotional offers and product showcase*
 
@@ -28,6 +28,8 @@
 
 **Cara** is a modern, responsive e-commerce fashion website built with HTML and CSS. This project demonstrates a complete online shopping experience with multiple pages and interactive features.
 
+---
+
 ## ✨ Features
 
 ### 🏠 **Home Page**
@@ -37,16 +39,22 @@
 - Newsletter subscription
 - Responsive design
 
+---
+
 ### 🛒 **Shop Page**
 - Product catalog with filtering
 - Product details and pricing
 - Shopping cart functionality
 - Product categories
 
+---
+
 ### 📝 **Blog Page**
 - Fashion blog articles
 - Latest trends and news
 - Engaging content layout
+
+---
 
 ### ℹ️ **About Page**
 - Company story and mission
@@ -54,15 +62,21 @@
 - Company values and vision
 - Mobile app download section
 
+---
+
 ### 📞 **Contact Page**
 - Contact form
 - Location information
 - Customer support details
 
+---
+
 ### 🛍️ **Cart Page**
 - Shopping cart management
 - Product quantity controls
 - Checkout process
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -70,6 +84,8 @@
 - **CSS3** - Styling and animations
 - **Font Awesome** - Icons
 - **Remix Icons** - Additional icon set
+
+---
 
 ## 📁 Project Structure
 
@@ -91,6 +107,8 @@ cara-fashion-ecommerce/
 └── README.md          # This file
 ```
 
+---
+
 ## 🎨 Design Features
 
 - **Responsive Design** - Works on all devices
@@ -98,6 +116,7 @@ cara-fashion-ecommerce/
 - **Interactive Elements** - Hover effects and animations
 - **Professional Layout** - Well-structured content
 - **Brand Consistency** - Cohesive design language
+---
 
 ## 🚀 Getting Started
 
@@ -108,7 +127,9 @@ cara-fashion-ecommerce/
 
 2. **Open in your browser**
    - Open `index.html` in your web browser
-   - Or use a local server for better experience
+   - Or use a local server for a better experience
+
+---
 
 ## 📱 Pages Overview
 
@@ -121,6 +142,8 @@ cara-fashion-ecommerce/
 | 📞 **Contact** | Contact information | Contact form, location |
 | 🛍️ **Cart** | Shopping cart | Cart management, checkout |
 
+---
+
 ## 🎯 Key Features
 
 - ✅ **Responsive Design** - Mobile-first approach
@@ -131,17 +154,19 @@ cara-fashion-ecommerce/
 - ✅ **Modern Styling** - CSS animations and effects
 - ✅ **Cross-browser Compatible** - Works on all major browsers
 
-## 📸 Screenshots
-
-*[Screenshots would be added here to showcase the website]*
+---
 
 ## 🤝 Contributing
 
 This is a learning project showcasing web development skills. Feel free to explore the code and learn from it!
 
+---
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
 
 ## 🙏 Attribution
 
