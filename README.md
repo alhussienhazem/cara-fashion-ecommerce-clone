@@ -74,7 +74,7 @@
 ## 📁 Project Structure
 
 ```
-AlhussienHazem-Task-6/
+cara-fashion-ecommerce/
 ├── index.html          # Home page
 ├── shop.html          # Shop page
 ├── blog.html          # Blog page
@@ -103,15 +103,10 @@ AlhussienHazem-Task-6/
 
 1. **Clone the repository**
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/alhussienhazem/cara-fashion-ecommerce.git
    ```
 
-2. **Navigate to the project directory**
-   ```bash
-   cd AlhussienHazem-Task-6
-   ```
-
-3. **Open in your browser**
+2. **Open in your browser**
    - Open `index.html` in your web browser
    - Or use a local server for better experience
 
